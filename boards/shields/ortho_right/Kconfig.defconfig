@@ -1,4 +1,4 @@
-if SHIELD_ORTHO_LEFT
+if SHIELD_ORTHO_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "ortho"
