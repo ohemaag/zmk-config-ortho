@@ -19,7 +19,7 @@
                 &kp SLASH   &kp PERIOD   &kp COMMA   &kp M   &kp N   &kp B   &kp V   &kp C   &kp X   &kp Z   &none   &kp LSHIFT 
                 &none   &none   &none   &none   &mo 2   &kp SPACE   &kp BSPC   &kp LEFT_GUI   &kp LALT   &none   &none   &none
             >;
-        };zsssssssssasssssffff
+        };
 
         func_layer {
             bindings = <
