@@ -10,6 +10,7 @@
         compatible = "zmk,kscan-gpio-matrix";
         label = "default_kscan";
         diode-direction = "row2col";
+        split-role = "central";
 
         row-gpios = <&gpio0 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                     <&gpio0 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
