@@ -1,4 +1,4 @@
-if SHIELD_ORTHO_LEFT
+if SHIELD_ORTHOLEFT
 
     config ZMK_KEYBOARD_NAME
         default "ortho"
@@ -8,14 +8,14 @@ if SHIELD_ORTHO_LEFT
 
 endif
 
-if SHIELD_ORTHO_RIGHT
+if SHIELD_ORTHORIGHT
 
     config ZMK_KEYBOARD_NAME
         default "ortho"
 
 endif
 
-if SHIELD_ORTHO_LEFT || SHIELD_ORTHO_RIGHT
+if SHIELD_ORTHOLEFT || SHIELD_ORTHORIGHT
 
     config ZMK_SPLIT
         default y

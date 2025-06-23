@@ -1,5 +1,5 @@
-config SHIELD_ORTHO_LEFT
-    def_bool $(shields_list_contains, ortho_left)
+config SHIELD_ORTHOLEFT
+    def_bool $(shields_list_contains, ortholeft)
 
-config SHIELD_ORTHO_RIGHT
-    def_bool $(shields_list_contains, ortho_right)
+config SHIELD_ORTHORIGHT
+    def_bool $(shields_list_contains, orthoright)
